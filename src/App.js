@@ -1,5 +1,5 @@
 import './App.css';
-import { Formulario } from './components/Formulario';
+import { Formulario } from './Formulario';
 
 function App() {
   return (
