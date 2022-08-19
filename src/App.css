@@ -16,6 +16,8 @@
   color: black;
 }
 
+
+
 .form-nombre{
   margin: 15px auto;
   margin-bottom: 25px;
@@ -46,6 +48,23 @@
   margin-bottom: 25px;
 }
 
+.formulario{
+  display: flex;
+}
+
+.form_div{
+  font-family: 'Chakra Petch', sans-serif;
+  position: relative;
+  padding-right: 150px;
+
+}
+
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
 .g-recaptcha{
   margin: 15px auto;
   margin-bottom: 25px;
@@ -55,3 +74,11 @@ input[type="submit"]{
   margin: 15px auto;
   margin-bottom: 25px;
 }
+
+.error{
+  margin: auto;
+  color: red;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
